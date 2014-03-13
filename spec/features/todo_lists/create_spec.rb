@@ -65,8 +65,5 @@
 
 		visit "/todo_lists"
 		expect(page). to_not have_content("Grocery list")  
-
-	end
-
-
+end
 end
